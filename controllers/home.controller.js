@@ -9,6 +9,7 @@ exports.getHomePage = (req, res) => {
             res.redirect('/');
         }
 
+        //add comment 
         res.render('index.ejs', {
             title: "Welcome to Socka | View Players",
             players: result
